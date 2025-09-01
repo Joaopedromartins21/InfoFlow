@@ -81,15 +81,34 @@ cd backend/infoflow_api
 ```
 
 2. Ative o ambiente virtual:
-```bash
- python -m venv venv
- venv/bin/activate
-```
+
+   **Windows (PowerShell):**
+   ```powershell
+   .\venv\Scripts\activate
+   ```
+   **Windows (Command Prompt):**
+   ```cmd
+   venv\Scripts\activate
+   ```
+   **Linux/macOS:**
+   ```bash
+   source venv/bin/activate
+   ```
 
 3. Configure a chave da API:
-```bash
-export GNEWS_API_KEY="sua_chave_aqui"
-```
+
+   **Windows (PowerShell):**
+   ```powershell
+   $env:GNEWS_API_KEY="sua_chave_aqui"
+   ```
+   **Windows (Command Prompt):**
+   ```cmd
+   set GNEWS_API_KEY="sua_chave_aqui"
+   ```
+   **Linux/macOS:**
+   ```bash
+   export GNEWS_API_KEY="sua_chave_aqui"
+   ```
 
 4. Execute o servidor:
 ```bash
