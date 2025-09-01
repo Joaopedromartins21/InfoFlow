@@ -82,7 +82,8 @@ cd backend/infoflow_api
 
 2. Ative o ambiente virtual:
 ```bash
-source venv/bin/activate
+ python -m venv venv
+ venv/bin/activate
 ```
 
 3. Configure a chave da API:
